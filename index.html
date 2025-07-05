@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Front-End Developer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-blue-50 text-gray-800 font-sans scroll-smooth">
+  
+  <!-- navbar -->
+   <header class="bg-blue-600 text-white shadow fixed w-full top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold flex items-center space-x-2">
+        <div class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center">💻</div>
+        <span>By Bayu</span>
+      </div>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#home" class="relative hover:text-yellow-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-yellow-300 hover:after:w-full after:transition-all duration-300">Home</a>
+        <a href="#profile" class="relative hover:text-yellow-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-yellow-300 hover:after:w-full after:transition-all duration-300">profile</a>
+        <a href="#portofolio" class="relative hover:text-yellow-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-yellow-300 hover:after:w-full after:transition-all duration-300">Portofolio</a>
+        <a href="#message" class="relative hover:text-yellow-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-yellow-300 hover:after:w-full after:transition-all duration-300">Message</a>
+      </nav>
+    </div>
+   </header> 
+
+   <main class="pt-24 max-w-6xl mx-auto px-4">
+     <!-- home -->
+      <section id="home" class="text-center py-16 bg-gradient-to-br from-blue-100 to-white rounded-lg shadow-sm">
+        <h1 class="text-4xl font-bold mb-4 text-blue-800">Hi I'm <span id="dynamic-name">Bayu</span></h1>
+        <p class="text-lg text-blue-700 mb-6">A Passionate Front-End Developer who builds modern and responsive website</p>
+        <div class="w-full rounded-md overflow-hidden shadow-lg">
+          <img src="image/front.jpg" alt="Portofolio Preview" class="w-full h-auto max-w-full object-cover"/>
+        </div>
+      </section>
+
+       <!-- profile -->
+        <section id="profile" class="py-16">
+          <h2 class="text-3xl font-bold text-center mb-10 text-blue-800">Profile</h2>
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="p-6 bg-white rounded-lg shadow-md transform hover:-translate-y-2 hover:shadow-xl transition duration-300 ease-in-out">
+              <h3 class="text-xl font-bold text-blue-700 mb-2">About Me</h3>
+              <p>Saya adalah seorang Front-End Developer yang membangun antar muka web modern dan intuitif menggunakan HTML, CSS, tailwind, dan JavaScript</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md transform hover:-translate-y-2 hover:shadow-xl transition duration-300 ease-in-out">
+              <h3 class="text-xl font-bold text-blue-700 mb-2">My Vision</h3>
+              <p>Menciptakan pengalaman pengguna yang menarik dan efisien dengan desain UI/UX modern dan teknologi terbaru</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md transform hover:-translate-y-2 hover:shadow-xl transition duration-300 ease-in-out">
+              <h3 class="text-xl font-bold text-blue-700 mb-2">My Mision</h3>
+              <p>Belajar dan berkontribusi dalam membangun produk digital yang berdampak positif bagi pengguna dan masyarakat</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- profile -->
+         <section id="portofolio" class="py-16 bg-blue-100 rounded-lg shadow-inner">
+          <h2 class="text-3xl font-bold text-center mb-10 text-blue-800">Portofolio</h2>
+          <div class="grid md:grid-cols-3 gap-6">
+            <!-- landing page -->
+             <div class="bg-white p-4 rounded-lg shadow-md text-center transform hover:-translate-y-2 hover:shadow-xl transition duration-300 ease-in-out">
+              <img src="image/landing.jpeg" alt="Landing Page" class="w-full h-32 object-cover rounded mb-4">
+              <h4 class="font-semibold mb-2 text-blue-700">Landing Page website</h4>
+              <p class="text-sm text-gray-700">Halaman promosi bisnis profesional ddengan gaya modern dan ilustratif</p>
+             </div>
+
+              <!-- Ui Dasboard -->
+             <div class="bg-white p-4 rounded-lg shadow-md text-center transform hover:-translate-y-2 hover:shadow-xl transition duration-300 ease-in-out">
+              <img src="image/dasbord.png" alt="Landing Page" class="w-full h-32 object-cover rounded mb-4">
+              <h4 class="font-semibold mb-2 text-blue-700">Project Management Dasboard</h4>
+              <p class="text-sm text-gray-700">Dasboard interaktif untuk manajement proyek dan produktivitas tim</p>
+             </div>
+
+             <!-- E commerce -->
+             <div class="bg-white p-4 rounded-lg shadow-md text-center transform hover:-translate-y-2 hover:shadow-xl transition duration-300 ease-in-out">
+              <img src="image/E.webp" alt="Landing Page" class="w-full h-32 object-cover rounded mb-4">
+              <h4 class="font-semibold mb-2 text-blue-700">Mobile E-commerce UI</h4>
+              <p class="text-sm text-gray-700">Antarmuka belanja online modernn dengan tampilan produk yang bersih dan responsif</p>
+             </div>
+          </div>
+         </section>
+
+        <!-- Message form -->
+         <section id="message" class="py-16">
+          <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Message Me</h2>
+          <div class="grid md:grid-cols-2 gap-8 bg-white p-6 rounded-lg shadow-lg border border-blue-200">
+            <!-- form -->
+             <form id="message-form" class="space-y-4">
+              <div>
+                <label class="block font-semibold text-blue-700">Nama</label>
+                <input type="text" id="input-nama" class="w-full p-2 border border-blue-300 rounded focus:outline-none focus:ring focus:border-blue-500">
+              </div>
+              <div>
+                <label class="block font-semibold text-blue-700">Tanggal Lahir</label>
+                <input type="date" id="input-dob" class="w-full p-2 border border-blue-300 rounded focus:outline-none focus:ring focus:border-blue-500">
+              </div>
+              <div>
+                <label class="block font-semibold text-blue-700">Jenis Kelamin</label>
+                <div class="space-x-4 mt-2 text-blue-800">
+                 <label><input type="radio" name="gender" value="laki-laki"/> Laki-Laki</label>
+                 <label><input type="radio" name="gender" value="perempuan"/> Perempuan</label>
+                </div>
+              </div>
+              <div>
+                <label class="block font-semibold text-blue-700">Pesan</label>
+                <textarea id="input-message" class="w-full p-2 border border-blue-300 rounded focus:outline-none focus:ring focus:border-blue-500" rows="3"></textarea>
+              </div>
+              <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition hover:scale-105">submit</button>
+             </form>
+
+             <!-- output -->
+             <div>
+              <div id="output-placeholder" class="bg-yellow-100 text-yellow-800 p-4 rounded text-sm shadow">
+                Silakan isi form terlebih dahulu untuk melihat hasilnya
+              </div>
+
+              <!-- hasil input -->
+               <div id="output-result" class="bg-blue-50 p-4 rounded text-sm border border-blue-200 shadow-md hidden mt-4">
+                 <p><strong>Current time:</strong><span id="current-time"></span></p>
+                 <p><strong>Nama:</strong><span id="result-name"></span></p>
+                 <p><strong>Tanggal Lahir:</strong><span id="result-dob"></span></p>
+                 <p><strong>Jenis Kelamin:</strong><span id="result-gender"></span></p>
+                 <p><strong>Pesan:</strong><span id="result-message"></span></p>
+               </div>
+             </div>
+            </div>
+         </section>
+       </main>
+
+       <footer class="bg-blue-100 text-center text-sm py-4 text-blue-800">Create by Bayu - Front-End Developer</footer>
+</body>
+<script src="js/script.js"></script>
+</html>
